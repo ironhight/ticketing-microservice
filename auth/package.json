@@ -1,0 +1,22 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts"
+  },
+  "author": "Hoai Nam Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "@ironhight/tickets": "^1.0.22",
+    "@types/cookie-session": "^2.0.42",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/jsonwebtoken": "^8.5.0"
+  }
+}
