@@ -9,7 +9,7 @@ import { queueGroupName } from './queue-group-name';
 import { Order } from '../../models/order';
 
 export class OrderCancelledListener extends Listener<OrderCancelledEvent> {
-  subject: Subjects.OrderCancelled = Subjects.OrderCancelled;
+  readonly subject = Subjects.OrderCancelled;
   queueGroupName = queueGroupName;
 
   async onMessage(data: OrderCancelledEvent['data'], msg: Message) {
