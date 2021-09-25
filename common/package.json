@@ -9,7 +9,7 @@
     "build": "npm run clean && tsc",
     "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
-  "author": "Hoai Nam Nguyen",
+  "author": "ironhight",
   "license": "ISC",
   "devDependencies": {
     "@types/cookie-session": "^2.0.42",

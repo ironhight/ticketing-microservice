@@ -9,7 +9,7 @@
     "dev": "ts-node-dev src/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "ironhight",
   "license": "ISC",
   "dependencies": {
     "@ironhight/tickets": "*",

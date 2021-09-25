@@ -9,7 +9,7 @@
     "dev": "ts-node-dev src/index.ts"
   },
   "keywords": [],
-  "author": "Hoai Nam Nguyen",
+  "author": "ironhight",
   "license": "ISC",
   "dependencies": {
     "@ironhight/tickets": "*",
