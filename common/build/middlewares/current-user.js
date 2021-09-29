@@ -7,7 +7,6 @@ exports.currentUser = void 0;
 var jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 var currentUser = function (req, res, next) {
     var _a;
-    console.log("🚀 ~ file: current-user.ts ~ line 23 ~ req.session", req.session);
     if (!((_a = req.session) === null || _a === void 0 ? void 0 : _a.jwt)) {
         return next();
     }
