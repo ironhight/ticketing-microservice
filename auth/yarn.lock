@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@ironhight/tickets@^1.0.23":
-  version "1.0.23"
-  resolved "https://registry.yarnpkg.com/@ironhight/tickets/-/tickets-1.0.23.tgz#8891fca6696aef1173a6752af863414e213139bb"
-  integrity sha512-GVUJJUqdhZgCxWAmIbrS5JasTPHnYkWS9OeIX3/cbSESbzwY5B9j303aIYWYGi25r6Nx2vnzGT7EgUpp7BGY7A==
+"@ironhight/tickets@*":
+  version "1.0.27"
+  resolved "https://registry.yarnpkg.com/@ironhight/tickets/-/tickets-1.0.27.tgz#175af8033026da043ec67fc96a23562413cfbccb"
+  integrity sha512-cQdavVAjpRqzka7alhMUQXx8aBD9kj2KXVM7nBLKN2hx92qMmS/XwMiCSRRN6bqIoJwzvo+eGmkvkXnFlJ0iAQ==
   dependencies:
     cookie-session "^1.4.0"
     express "^4.17.1"
